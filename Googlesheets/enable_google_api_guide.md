@@ -5,7 +5,7 @@
 
 ### **Step 1: Creating a project in Google Cloud Console**
 
-Log in to Google Cloud Console: https://console.cloud.google.com/
+Log in to Google Cloud Console: https://console.cloud.google.com/.  
 In the top panel, click on **Select a project** and then click on **New Project.**  
 Enter the project name (e.g., "Google Sheets API Project") and click **Create**.
 
