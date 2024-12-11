@@ -1,21 +1,21 @@
-# Working with Google Sheets API
-## Setting up the environment, authentication, and working with Google Sheets API in Robot Framework
+# Working with Google Sheets API in Robot Framework
 
-### ENVIRONMENT SETUP AND AUTHENTICATION
+## Environment setup and authentication when working with Google Sheets API
 
-#### **Step 1:** Creating a project in Google Cloud Console
+
+### **Step 1: Creating a project in Google Cloud Console**
 
 Log in to Google Cloud Console: https://console.cloud.google.com/
 In the top panel, click on **Select a project** and then click on **New Project.**  
 Enter the project name (e.g., "Google Sheets API Project") and click **Create**.
 
-#### Step 2: Enabling Google Sheets API
+### **Step 2: Enabling Google Sheets API**
 
 In the left menu, click on **API & Services → Library**.  
 In the search field, type Google Sheets API.   
 Click on **Google Sheets API** and then click **Enable** to activate the API for your project.  
 
-#### Step 3: Creating a Service Account
+### **Step 3: Creating a Service Account**
 
 In Google Cloud Console, go to **IAM & Admin → Service Accounts**.  
 Click **Create Service Account**.  
@@ -27,7 +27,7 @@ click **ADD KEY → Create new key** and choose the **JSON** format.
 Click **Create**, which will download the JSON file containing the service account's credentials   
 (this file is needed for authentication).  
 
-#### Step 4: Sharing access to the Google Sheets document
+### **Step 4: Sharing access to the Google Sheets document**
 
 Open the Google Sheets document you want to use with the Google Sheets API.  
 Click **Share** in the top right corner.  
@@ -36,7 +36,7 @@ Enter the service account’s email address
 Grant the service account the necessary permissions (e.g., Editor)   
 to allow it to read and write to the sheet.   
 
-#### Step 5: Setting up Robot Framework and authentication
+### **Step 5: Setting up Robot Framework and authentication**
 
 To work with Google Sheets, authentication is required first.
 How does it work?
@@ -59,6 +59,6 @@ to your project directory and name it **serviceaccount.json**.
 Create a variable with the path to serviceaccount.json using path from repository root:  
 Right-click on the serviceaccount.json file → **Copy Path/Reference → Path From Repository Root**  
 
-#### Step 5: Initializing Google Sheets using the keyword Init Sheets
+### **Step 5: Initializing Google Sheets using the keyword Init Sheets**
 
 `Init Sheets   ${JSON_SERVICEACCOUNT}  `
