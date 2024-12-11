@@ -48,13 +48,13 @@ The following library helps with this process.
 
 Install the RPA Cloud Google library:  
 
-`pip install rpaframework-google
+`pip install rpaframework-google  
 `
-Library documentation: https://rpaframework.org/libdoc/RPA_Cloud_Google.html  
+Library documentation: https://rpaframework.org/libdoc/RPA_Cloud_Google.html    
 
-Open the robot file and add the library in the Settings section: 
+Open the robot file and add the library in the Settings section:   
 
-`Library   RPA.Cloud.Google  `
+`Library   RPA.Cloud.Google    `
 
 Copy the authentication JSON file (created in Step 3)   
 to your project directory and name it **serviceaccount.json**.  
