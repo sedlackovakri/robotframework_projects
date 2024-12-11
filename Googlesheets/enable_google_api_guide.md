@@ -46,11 +46,14 @@ This token is then sent as part of the HTTP headers to the endpoint.
 The following library helps with this process. 
 (the entire process is executed by the keyword `Init Sheets`).
 
-Install the RPA Cloud Google library:   
-`pip install rpaframework-google  `
+Install the RPA Cloud Google library:  
+
+`pip install rpaframework-google
+`
 Library documentation: https://rpaframework.org/libdoc/RPA_Cloud_Google.html  
 
-Open the robot file and add the library in the Settings section:  
+Open the robot file and add the library in the Settings section: 
+
 `Library   RPA.Cloud.Google  `
 
 Copy the authentication JSON file (created in Step 3)   
@@ -59,6 +62,6 @@ to your project directory and name it **serviceaccount.json**.
 Create a variable with the path to serviceaccount.json using path from repository root:  
 Right-click on the serviceaccount.json file → **Copy Path/Reference → Path From Repository Root**  
 
-### **Step 5: Initializing Google Sheets using the keyword Init Sheets**
+Initializing Google Sheets using the keyword Init Sheets:
 
 `Init Sheets   ${JSON_SERVICEACCOUNT}  `
