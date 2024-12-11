@@ -1,4 +1,4 @@
-# Working with Google Sheets API in Robot Framework
+# Google Sheets API in Robot Framework
 
 ## Environment setup and authentication when working with Google Sheets API
 
