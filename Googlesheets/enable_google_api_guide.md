@@ -32,8 +32,8 @@ Click **Create**, which will download the JSON file containing the service accou
 Open the Google Sheets document you want to use with the Google Sheets API.  
 Click **Share** in the top right corner.  
 Enter the service account’s email address   
-(found in the JSON file or in Google Cloud Console under Service Accounts).
-Grant the service account the necessary permissions (e.g., Editor)   
+(found in the JSON file or in Google Cloud Console under Service Accounts).  
+Grant the service account the necessary permissions (e.g., Editor)     
 to allow it to read and write to the sheet.   
 
 ### **Step 5: Setting up Robot Framework and authentication**
