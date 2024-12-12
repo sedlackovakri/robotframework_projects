@@ -55,12 +55,13 @@ Compare Form Data With Last Row in Google Sheet
     [Documentation]     Compares the input form data with the data in Google Sheets
     ...                 to ensure that the data entered in the form was correctly transferred.
     [Arguments]         ${form_name}       ${form_surname}      ${form_adress}      ${form_phone}
-    ${form_data_list}                      Create list                       ${form_name}
-    ...                                                                      ${form_surname}
-    ...                                                                      ${form_adress}
-    ...                                                                      ${form_phone}
+
+    ${form_data_list}                      Create list        ${form_name}
+    ...                                                       ${form_surname}
+    ...                                                       ${form_adress}
+    ...                                                       ${form_phone}
     ${last_row}                            Get Last Row from Google Sheet
-    Compare Form and Last Row As A List    ${last_row}    ${form_data_list}
+    Compare Form and Last Row As A List    ${last_row}        ${form_data_list}
 
 
 Compare Form and Last Row As A List
