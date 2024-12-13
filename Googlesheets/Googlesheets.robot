@@ -20,7 +20,7 @@ Documentation    VERIFYING GOOGLE SHEETS DATA WITH INPUT FORM DATA
 ...              Variable  ${SHEET_NAME} is the name of the sheet - e.g. Sheet1 (!!!not the spreadsheet name!!!)
 ...              Variable  ${JSON_SERVICEACCOUNT} contains the path to the JSON service account file
 ...                 >>> serviceaccount.json file is obtained when creating a service account in the Google Cloud Console
-...                 >>> make sure to add the path: Path From Repository Root
+
 
 
 
